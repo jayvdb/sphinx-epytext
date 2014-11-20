@@ -11,4 +11,16 @@ It connects to the 'autodoc-process-docstring' hook of Sphinx, to perform the fo
 - Replaces L{..} and C{..} with :py:obj:`..`
 - Removes U{..} from around links
 
-To use it, add 'sphinx_epytext' to 'extensions' in your Sphinx conf.py and run sphinx-build.
+Configuration
+-------------
+
+Add it to your extensions in ``conf.py``::
+
+    extensions = [
+        'sphinx.ext.autodoc',
+        'sphinx_epytext',
+        # your other sphinx extensions
+        # ...
+    ]
+
+Then run ``sphinx-build``.
