@@ -31,5 +31,5 @@ setup(
     ],
     platforms='any',
     packages=find_packages(),
-    install_requires=['sphinx'],
+    install_requires=['sphinx>=0.4'],
 )
