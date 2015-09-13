@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='sphinx-epytext',
-    version='0.0.3',
+    version='0.0.4',
     url='https://github.com/jayvdb/sphinx-epytext',
     download_url='http://pypi.python.org/pypi/sphinx-epytext',
     license='MIT',
