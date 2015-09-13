@@ -11,6 +11,7 @@ FIELDS = [
     'returns',
     'return',
     'rtype',
+    'raise',
     'raises',
     'exception',
     'see',
