@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
-# Copyright 2014 John Vandenberg
+# Copyright 2014-5 John Vandenberg
 # Licensed under the MIT License, see LICENSE file for details.
 
 """Sphinx epytext support."""
+
+from sphinx.application import Sphinx
 
 from sphinx_epytext.process_docstring import process_docstring
 
@@ -14,7 +16,6 @@ def setup(app):
     the ``setup()`` function, which in turn notifies Sphinx of everything
     the extension offers.
     """
-    from sphinx.application import Sphinx
     if not isinstance(app, Sphinx):
         return  # probably called by tests
 
